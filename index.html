@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <title>Cinemas</title>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="custom-nav">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">CINEMAS</a>
+          <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <a class="btn btn-sign-in mr-3" href="#" role="button">Sign In</a>
+              <a class="btn btn-sign-up" href="#" role="button">Sign Up</a>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Image -->
+  <div class="hero">
+    <!-- Flickity HTML init -->
+    <div class="carousel js-flickity" data-flickity='{ "autoPlay": 6000, "pauseAutoPlayOnHover": false, "selectedAttraction": 0.01 , "friction": 0.15, "prevNextButtons": false }'>
+      <!-- images from unsplash.com -->
+      <div class="carousel-cell">
+        <img src="images/hero.jpg" alt=""  />
+        <div class="content slide-content ">
+          <h1 >AVENGERS</h1>
+          <h5>Endgame</h5>
+          <div class="button-action">
+            <a class="btn btn-action mr-3" href="#" role="button">Watch Trailer <img src="images/ic-play.png"alt=""></a>
+              <a class="btn btn-action" href="#" role="button">Buy Ticket Now</a>
+              <a class="btn btn-see-detail btn-sm" href="#" role="button">See Detail</a>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="carousel-cell">
+        <img src="images/hero-2.jpg" alt="" />
+        <div class="content slide-content ">
+          <h1>Weathering With You</h1>
+            <h5>( 天気の子 )</h5>
+            <div class="button-action">
+              <a class="btn btn-action mr-3" href="#" role="button">Watch Trailer <img src="images/ic-play.png" alt=""></a>
+              <a class="btn btn-action" href="#" role="button">Buy Ticket Now</a>
+              <a class="btn btn-see-detail btn-sm" href="#" role="button">See Detail</a>
+            </div>
+        </div>
+      </div>
+      <div class="carousel-cell">
+        <img src="images/hero-3.jpg" alt="" />
+        <div class="content slide-content ">
+          <h1>FURIOUS 9</h1>
+            <h5>The Fast Saga</h5>
+            <div class="button-action">
+              <a class="btn btn-action mr-3" href="#" role="button">Watch Trailer <img src="images/ic-play.png"alt=""></a>
+              <a class="btn btn-action" href="#" role="button">Buy Ticket Now</a>
+              <a class="btn btn-see-detail btn-sm" href="#" role="button">See Detail</a>
+            </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+
+  <!-- btn seat -->
+  <div class="button-seat">
+    <div class="container">
+      <div class="row">
+        <a class="btn btn-seat" href="#" role="button">See Available Seat</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- News Update -->
+  <section class="news mt-4">
+    <div class="container">
+      <h1>Movies Update</h1>
+      <div class="row">
+        <div class="news-content">
+          <div class="col d-flex flex-wrap justify-content-center">
+            <div class="news-item" data-aos="fade-up" data-aos-easing="ease-in-out">
+              <div class="img">
+                <img src="images/news.png" alt="">
+              </div>
+              <div class="description ml-3">
+                <h4>Title</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi itaque,
+                </p>
+              </div>
+            </div>
+            <div class="news-item" data-aos="fade-up" data-aos-delay="50" data-aos-easing="ease-in-out">
+              <div class="img">
+                <img src="images/news.png" alt="">
+              </div>
+              <div class="description ml-3">
+                <h4>Title</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi itaque,
+                </p>
+              </div>
+            </div>
+            <div class="news-item" data-aos="fade-up" data-aos-delay="150" data-aos-easing="ease-in-out">
+              <div class="img">
+                <img src="images/news.png" alt="">
+              </div>
+              <div class="description ml-3">
+                <h4>Title</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi itaque,
+                </p>
+              </div>
+            </div>
+            <div class="news-item" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">
+              <div class="img">
+                <img src="images/news.png" alt="">
+              </div>
+              <div class="description ml-3">
+                <h4>Title</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi itaque,
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scheduled Movies -->
+   <section class="movies">
+    <div class="container">
+      <h1>Scheduled Movies</h1>
+      <div class="row">
+        <div class="col">
+          <ul>
+            <li class="movie-item" data-aos="fade-up" data-aos-easing="ease-in-out">
+              <div class="movie-detail">
+                <a href="#" class="btn btn-movie-detail" role="button">See Details</a>
+              </div>
+              <div class="overlay"></div>
+              <img src="/images/movie-1@2x.png" alt="" class="movie-img" />
+            </li>
+            <li class="movie-item" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">
+              <div class="movie-detail">
+                <a href="#" class="btn btn-movie-detail" role="button">See Details</a>
+              </div>
+              <div class="overlay"></div>
+              <img src="/images/movie-2@2x.png" alt="" class="movie-img" />
+            </li>
+            <li class="movie-item" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">
+              <div class="movie-detail">
+                <a href="#" class="btn btn-movie-detail" role="button">See Details</a>
+              </div>
+              <div class="overlay"></div>
+              <img src="/images/movie-3@2x.png" alt="" class="movie-img" />
+            </li>
+            <li class="movie-item" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
+              <div class="movie-detail">
+                <a href="#" class="btn btn-movie-detail" role="button">See Details</a>
+              </div>
+              <div class="overlay"></div>
+              <img src="/images/movie-4@2x.png" alt="" class="movie-img" />
+            </li>
+            <li class="movie-item" data-aos="fade-up" data-aos-delay="400" data-aos-easing="ease-in-out">
+              <div class="movie-detail">
+                <a href="#" class="btn btn-movie-detail" role="button">See Details</a>
+              </div>
+              <div class="overlay"></div>
+              <img src="/images/movie-5@2x.png" alt="" class="movie-img" />
+            </li>
+            <li class="movie-item" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-out">
+              <div class="movie-detail">
+                <a href="#" class="btn btn-movie-detail" role="button">See Details</a>
+              </div>
+              <div class="overlay"></div>
+              <img src="/images/movie-6@2x.png" alt="" class="movie-img" />
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <a href="#" class="btn btn-see-all-movies" role="button" data-aos="fade-up" data-aos-delay="530" data-aos-easing="ease-in-out">See all movies</a>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+  <!-- Nearby Cinemas -->
+  <section class="cinemas">
+    <div class="container">
+      <h1>Nearby Cinemas</h1>
+      <div class="row">
+        <div class="col">
+          <ul>
+            <li class="cinemas-item" data-aos="fade-right" data-aos-easing="ease-in-out">
+              <a href="#">
+                <div class="cinemas-detail">
+                  <img src="/images/pin@2x.png" alt="">
+                  <div class="text">
+                    <h5>at <Strong>XXI - Duta Mall</Strong></h5>
+                    <p>8.5 km - 27 minutes</p>
+                  </div>
+                </div>
+                <div class="overlay"></div>
+                <img src="/images/location-1@2x.png" alt="" class="cinemas-img" />
+              </a>
+            </li>
+            <li class="cinemas-item" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="200">
+              <a href="#">
+                <div class="cinemas-detail">
+                  <img src="/images/pin@2x.png" alt="">
+                  <div class="text">
+                    <h5>at <Strong>Cinemaxx - Q Mall</Strong></h5>
+                    <p>25.5 km - 1 Hour</p>
+                  </div>
+                </div>
+                <div class="overlay"></div>
+                <img src="/images/location-2@2x.png" alt="" class="cinemas-img" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscribe -->
+  <section class="subscribe">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <h2>Subscribe Now</h2>
+          <p>you will be notified when
+            there are new movie update </p>
+        </div>
+        <div class="col-lg-8 col-sm-12">
+          <form action="">
+            <div class="mail-box" data-aos="zoom-in" data-aos-delay="50" data-aos-easing="ease-in-out">
+              <input type="email" class="form-control box" placeholder="Your Email">
+              <input type="submit" class="btn btn-submit" value="Subscribe">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners -->
+  <section class="partner">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="partner-content">
+            <div class="title">
+              <h1>Our Partners</h1>
+            </div>
+            <div class="images" data-aos="fade-up" data-aos-easing="ease-in-out">
+              <img src="/images/tixid@2x.png" alt="" class="tixid">
+            </div>
+            <div class="images" data-aos="fade-up" data-aos-delay="50" data-aos-easing="ease-in-out">
+              <img src="/images/gopay_horizontal@2x.png" alt="">
+            </div>
+            <div class="images" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">
+              <img src="/images/dana@2x.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="section-contact mt-5 mb-4">
+    <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+            <div class="col">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-4 contact-item">
+                        <h5>Contact</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">support@cinemas.id</a></li>
+                            <li><a href="#">111-222-333</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 contact-item">
+                        <h5>More Cinemas</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Cinemas App</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 contact-item">
+                        <h5>Follow Our Social Media</h5>
+                        <ul class="list-unstyled d-flex social">
+                          <li><a href="#"><img src="/images/instagram@2x.png" alt=""></a></li>
+                          <li><a href="#"><img src="/images/twitter@2x.png" alt=""></a></li>
+                          <li><a href="#"><img src="/images/facebook@2x.png" alt=""></a></li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+      <div class="col bg-footer mb-5">
+        <p>Copyright - Cinemas all thing reserved - 2020</p>
+      </div>
+    </div>    
+  </footer>
+
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+  
+  <!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script> -->
+
+</body>
+
+</html>
