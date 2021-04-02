@@ -3,11 +3,11 @@
 }
 
 body {
-  background-color: #1A1C20;
+  background-color: #1a1c20;
 }
 
 header .custom-nav {
-  background-color: #1A1C20;
+  background-color: #1a1c20;
   -webkit-box-shadow: 0px 4px 6px black;
           box-shadow: 0px 4px 6px black;
   position: relative;
@@ -18,15 +18,15 @@ header .custom-nav nav .navbar-brand {
   font-family: 'Bebas Neue', cursive;
   font-weight: bold;
   font-size: 48px;
-  color: #F9813A !important;
+  color: #f9813a !important;
   letter-spacing: 10px;
 }
 
 header .custom-nav .btn-sign-in {
-  border: 3px solid #F9813A;
+  border: 3px solid #f9813a;
   border-radius: 15px;
   padding: 8px 30px;
-  color: #F9813A;
+  color: #f9813a;
   font-weight: 700;
   font-size: 20px;
 }
@@ -37,10 +37,10 @@ header .custom-nav .btn-sign-in:hover {
 }
 
 header .custom-nav .btn-sign-up {
-  background-color: #F9813A;
+  background-color: #f9813a;
   border-radius: 15px;
   padding: 8px 30px;
-  color: #1A1C20;
+  color: #1a1c20;
   font-weight: 700;
   font-size: 20px;
 }
@@ -97,8 +97,8 @@ header .custom-nav .btn-sign-up:hover {
 }
 
 .hero .carousel .carousel-cell .content .button-action .btn-action {
-  background-color: #F9813A;
-  color: #1A1C20;
+  background-color: #f9813a;
+  color: #1a1c20;
   font-size: 18px;
   font-weight: 700;
   border-radius: 15px;
@@ -198,18 +198,18 @@ header .custom-nav .btn-sign-up:hover {
 .hero .flickity-page-dots .dot {
   width: 15px;
   height: 15px;
-  opacity: .7;
-  background: #9B4715;
+  opacity: 0.7;
+  background: #9b4715;
 }
 
 .hero .flickity-page-dots .is-selected {
-  background: #F9813A;
+  background: #f9813a;
   width: 50px;
   border-radius: 10px !important;
 }
 
 .button-seat .btn-seat {
-  background-color: #F9813A;
+  background-color: #f9813a;
   font-size: 28px;
   border-radius: 15px;
   padding: 10px 60px;
@@ -227,7 +227,7 @@ header .custom-nav .btn-sign-up:hover {
 .news {
   position: absolute;
   top: 150vh;
-  color: #F9813A;
+  color: #f9813a;
   left: 10%;
 }
 
@@ -279,7 +279,7 @@ header .custom-nav .btn-sign-up:hover {
 }
 
 .movies h1 {
-  color: #F9813A;
+  color: #f9813a;
   font-weight: bold;
   font-size: 38px;
   margin-bottom: 40px;
@@ -318,8 +318,8 @@ header .custom-nav .btn-sign-up:hover {
 }
 
 .movies .movie-item .movie-detail .btn-movie-detail {
-  background-color: #F9813A;
-  color: #1A1C20;
+  background-color: #f9813a;
+  color: #1a1c20;
   font-weight: bold;
   width: 100%;
   font-size: em(24);
@@ -379,7 +379,7 @@ header .custom-nav .btn-sign-up:hover {
 }
 
 .movies .btn-see-all-movies {
-  background-color: #F9813A;
+  background-color: #f9813a;
   display: block;
   width: 90%;
   border-radius: 10px;
@@ -403,7 +403,7 @@ header .custom-nav .btn-sign-up:hover {
 }
 
 .cinemas h1 {
-  color: #F9813A;
+  color: #f9813a;
   font-weight: bold;
   font-size: 38px;
   margin-bottom: 40px;
@@ -498,7 +498,7 @@ header .custom-nav .btn-sign-up:hover {
   height: 100%;
   background: #000;
   z-index: 10;
-  opacity: .6;
+  opacity: 0.6;
   -webkit-transition: opacity 0.15s ease-out;
   transition: opacity 0.15s ease-out;
   -webkit-backface-visibility: hidden;
@@ -517,7 +517,7 @@ header .custom-nav .btn-sign-up:hover {
 
 .subscribe {
   position: relative;
-  color: #F9813A;
+  color: #f9813a;
   top: 150vh;
   font-size: 22px;
 }
@@ -537,7 +537,7 @@ header .custom-nav .btn-sign-up:hover {
   position: absolute;
   width: 80%;
   margin-top: 15px;
-  background-color: #F9813A;
+  background-color: #f9813a;
   padding: 15px;
   border-radius: 15px;
   display: -webkit-box;
@@ -556,34 +556,35 @@ header .custom-nav .btn-sign-up:hover {
   height: 50px;
   font-size: 20px;
   font-weight: 600;
-  color: #F9813A;
+  color: #f9813a;
 }
 
 .subscribe .mail-box .box::-webkit-input-placeholder {
-  color: #F9813A;
+  color: #f9813a;
   font-weight: 600;
   font-size: 20px;
 }
 
 .subscribe .mail-box .box:-ms-input-placeholder {
-  color: #F9813A;
+  color: #f9813a;
   font-weight: 600;
   font-size: 20px;
 }
 
 .subscribe .mail-box .box::-ms-input-placeholder {
-  color: #F9813A;
+  color: #f9813a;
   font-weight: 600;
   font-size: 20px;
 }
 
 .subscribe .mail-box .box::placeholder {
-  color: #F9813A;
+  color: #f9813a;
   font-weight: 600;
   font-size: 20px;
 }
 
-.subscribe .mail-box .box:focus, .subscribe .mail-box .box .uneditable-input:focus {
+.subscribe .mail-box .box:focus,
+.subscribe .mail-box .box .uneditable-input:focus {
   border-color: rgba(26, 28, 32, 0.8);
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(26, 28, 32, 0.8);
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(26, 28, 32, 0.8);
@@ -594,7 +595,7 @@ header .custom-nav .btn-sign-up:hover {
   -webkit-box-flex: fill;
       -ms-flex: fill;
           flex: fill;
-  background-color: #1A1C20;
+  background-color: #1a1c20;
   color: white;
   padding: 0px 20px;
   width: 40%;
@@ -612,7 +613,7 @@ header .custom-nav .btn-sign-up:hover {
 
 .partner {
   position: relative;
-  color: #F9813A;
+  color: #f9813a;
   top: 170vh;
   font-size: 22px;
   background-color: rgba(249, 129, 58, 0.3);
@@ -623,7 +624,7 @@ header .custom-nav .btn-sign-up:hover {
 }
 
 .partner .partner-content h1 {
-  color: #F9813A;
+  color: #f9813a;
   font-weight: bold;
   font-size: 32px;
   float: left;
@@ -649,8 +650,8 @@ header .custom-nav .btn-sign-up:hover {
 }
 
 .partner .partner-content .images img:hover {
-  -webkit-filter: drop-shadow(5px 5px 2px #9B4715);
-  filter: drop-shadow(5px 5px 2px #9B4715);
+  -webkit-filter: drop-shadow(5px 5px 2px #9b4715);
+  filter: drop-shadow(5px 5px 2px #9b4715);
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
@@ -661,13 +662,13 @@ header .custom-nav .btn-sign-up:hover {
 }
 
 .section-contact h5 {
-  color: #F9813A;
+  color: #f9813a;
   font-weight: bold;
   font-size: 28px;
 }
 
 .section-contact ul li a {
-  color: #F9813A;
+  color: #f9813a;
   font-size: 22px;
 }
 
@@ -679,8 +680,8 @@ header .custom-nav .btn-sign-up:hover {
 }
 
 .section-contact .social img:hover {
-  -webkit-filter: drop-shadow(3px 3px 2px #9B4715);
-  filter: drop-shadow(3px 3px 2px #9B4715);
+  -webkit-filter: drop-shadow(3px 3px 2px #9b4715);
+  filter: drop-shadow(3px 3px 2px #9b4715);
 }
 
 .section-contact .bg-footer {
@@ -695,12 +696,12 @@ header .custom-nav .btn-sign-up:hover {
   margin: 0;
   font-size: 20px !important;
   font-weight: bold;
-  color: #1A1C20 !important;
+  color: #1a1c20 !important;
 }
 
 @media screen and (max-width: 540px) {
   header .custom-nav {
-    background-color: #1A1C20;
+    background-color: #1a1c20;
     -webkit-box-shadow: 0px 4px 6px black;
             box-shadow: 0px 4px 6px black;
     position: relative;
@@ -732,10 +733,10 @@ header .custom-nav .btn-sign-up:hover {
     border: 3px solid #ef5d07;
   }
   header .custom-nav .btn-sign-up {
-    background-color: #F9813A;
+    background-color: #f9813a;
     border-radius: 15px;
     padding: 8px 30px;
-    color: #1A1C20;
+    color: #1a1c20;
     font-weight: 700;
     font-size: 20px;
   }
@@ -744,7 +745,7 @@ header .custom-nav .btn-sign-up:hover {
   }
   .button-seat .btn-seat {
     visibility: hidden;
-    background-color: #F9813A;
+    background-color: #f9813a;
     font-size: 28px;
     border-radius: 15px;
     padding: 10px 60px;
@@ -777,7 +778,7 @@ header .custom-nav .btn-sign-up:hover {
     color: white;
     font-weight: 900;
     text-shadow: 3px 3px 2px black;
-    opacity: .5;
+    opacity: 0.5;
   }
   .hero .carousel .carousel-cell .content h5 {
     margin-top: -5px;
@@ -785,7 +786,7 @@ header .custom-nav .btn-sign-up:hover {
     color: white;
     font-weight: 300;
     text-shadow: 2px 2px 2px black;
-    opacity: .5;
+    opacity: 0.5;
   }
   .hero .carousel .carousel-cell .content .button-action {
     display: -webkit-box;
@@ -803,7 +804,7 @@ header .custom-nav .btn-sign-up:hover {
     font-size: 14px;
     font-weight: 700;
     border-radius: 8px;
-    background-color: #F9813A;
+    background-color: #f9813a;
     padding: 0 20px;
     opacity: 1;
   }
@@ -811,8 +812,8 @@ header .custom-nav .btn-sign-up:hover {
     background-color: #ef5d07;
   }
   .hero .carousel .carousel-cell .content .button-action .btn-action {
-    background-color: #F9813A;
-    color: #1A1C20;
+    background-color: #f9813a;
+    color: #1a1c20;
     font-size: 14px;
     font-weight: 700;
     border-radius: 15px;
@@ -833,7 +834,7 @@ header .custom-nav .btn-sign-up:hover {
             animation-name: fadeInUpSDmobile;
     -webkit-animation-duration: 1.8s;
             animation-duration: 1.8s;
-    opacity: .5;
+    opacity: 0.5;
     width: 100%;
     -webkit-transition: 800ms;
     transition: 800ms;
@@ -843,7 +844,7 @@ header .custom-nav .btn-sign-up:hover {
             animation-name: fadeInUpSDmobile;
     -webkit-animation-duration: 1.5s;
             animation-duration: 1.5s;
-    opacity: .5;
+    opacity: 0.5;
     width: 100%;
     -webkit-animation-delay: 0;
             animation-delay: 0;
@@ -855,7 +856,7 @@ header .custom-nav .btn-sign-up:hover {
             animation-name: fadeInUpSD;
     -webkit-animation-duration: 1.2s;
             animation-duration: 1.2s;
-    opacity: .5;
+    opacity: 0.5;
     -webkit-animation-delay: 0;
             animation-delay: 0;
     -webkit-transition: 800ms;
@@ -868,7 +869,7 @@ header .custom-nav .btn-sign-up:hover {
       transform: translateY(100px);
     }
     100% {
-      opacity: .5;
+      opacity: 0.5;
       -webkit-transform: none;
       transform: none;
     }
@@ -880,7 +881,7 @@ header .custom-nav .btn-sign-up:hover {
       transform: translateY(100px);
     }
     100% {
-      opacity: .5;
+      opacity: 0.5;
       -webkit-transform: none;
       transform: none;
     }
@@ -896,19 +897,19 @@ header .custom-nav .btn-sign-up:hover {
   .hero .flickity-page-dots .dot {
     width: 7px;
     height: 7px;
-    opacity: .7;
-    background: #9B4715;
+    opacity: 0.7;
+    background: #9b4715;
     margin-right: 1px;
   }
   .hero .flickity-page-dots .is-selected {
-    background: #F9813A;
+    background: #f9813a;
     width: 20px;
     border-radius: 10px !important;
   }
   .news {
     position: relative;
     top: -15px;
-    color: #F9813A;
+    color: #f9813a;
     margin-right: 8%;
   }
   .news h1 {
@@ -952,7 +953,7 @@ header .custom-nav .btn-sign-up:hover {
     left: 3%;
   }
   .movies h1 {
-    color: #F9813A;
+    color: #f9813a;
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 10px;
@@ -990,7 +991,7 @@ header .custom-nav .btn-sign-up:hover {
   }
   .movies .movie-item .movie-detail .btn-movie-detail {
     background-color: rgba(26, 28, 32, 0.8);
-    color: #F9813A;
+    color: #f9813a;
     font-weight: bold;
     width: 100%;
     font-size: em(24);
@@ -998,11 +999,11 @@ header .custom-nav .btn-sign-up:hover {
     padding: 5px;
     -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
             box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
-    opacity: .9;
+    opacity: 0.9;
   }
   .movies .movie-item .movie-detail .btn-movie-detail:hover {
     background-color: #ef5d07;
-    color: #1A1C20;
+    color: #1a1c20;
   }
   .movies .movie-item .movie-img {
     width: 100%;
@@ -1021,7 +1022,7 @@ header .custom-nav .btn-sign-up:hover {
     height: 100%;
     background: #000;
     z-index: 10;
-    opacity: .5;
+    opacity: 0.5;
     -webkit-transition: opacity 0.15s ease-out;
     transition: opacity 0.15s ease-out;
     -webkit-backface-visibility: hidden;
@@ -1044,7 +1045,7 @@ header .custom-nav .btn-sign-up:hover {
     transition: all 0.2s;
   }
   .movies .btn-see-all-movies {
-    background-color: #F9813A;
+    background-color: #f9813a;
     display: block;
     width: 80%;
     border-radius: 10px;
@@ -1063,7 +1064,7 @@ header .custom-nav .btn-sign-up:hover {
     left: 3%;
   }
   .cinemas h1 {
-    color: #F9813A;
+    color: #f9813a;
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 10px;
@@ -1135,7 +1136,7 @@ header .custom-nav .btn-sign-up:hover {
     height: 100%;
     background: #000;
     z-index: 10;
-    opacity: .6;
+    opacity: 0.6;
     -webkit-transition: opacity 0.15s ease-out;
     transition: opacity 0.15s ease-out;
     -webkit-backface-visibility: hidden;
@@ -1171,7 +1172,7 @@ header .custom-nav .btn-sign-up:hover {
     margin-top: 0 !important;
     right: 5%;
     left: 0;
-    background-color: #F9813A;
+    background-color: #f9813a;
     padding: 10px;
     border-radius: 15px;
     display: -webkit-box;
@@ -1187,29 +1188,30 @@ header .custom-nav .btn-sign-up:hover {
     height: 40px;
     font-size: 14px;
     font-weight: 600;
-    color: #F9813A;
+    color: #f9813a;
   }
   .subscribe .mail-box .box::-webkit-input-placeholder {
-    color: #F9813A;
+    color: #f9813a;
     font-weight: 600;
     font-size: 14px;
   }
   .subscribe .mail-box .box:-ms-input-placeholder {
-    color: #F9813A;
+    color: #f9813a;
     font-weight: 600;
     font-size: 14px;
   }
   .subscribe .mail-box .box::-ms-input-placeholder {
-    color: #F9813A;
+    color: #f9813a;
     font-weight: 600;
     font-size: 14px;
   }
   .subscribe .mail-box .box::placeholder {
-    color: #F9813A;
+    color: #f9813a;
     font-weight: 600;
     font-size: 14px;
   }
-  .subscribe .mail-box .box:focus, .subscribe .mail-box .box .uneditable-input:focus {
+  .subscribe .mail-box .box:focus,
+  .subscribe .mail-box .box .uneditable-input:focus {
     border-color: rgba(26, 28, 32, 0.8);
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(26, 28, 32, 0.8);
             box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(26, 28, 32, 0.8);
@@ -1219,7 +1221,7 @@ header .custom-nav .btn-sign-up:hover {
     -webkit-box-flex: fill;
         -ms-flex: fill;
             flex: fill;
-    background-color: #1A1C20;
+    background-color: #1a1c20;
     color: white;
     padding: 0px 10px;
     width: 30%;
@@ -1235,7 +1237,7 @@ header .custom-nav .btn-sign-up:hover {
   }
   .partner {
     position: relative;
-    color: #F9813A;
+    color: #f9813a;
     top: 35vh;
     font-size: 18px;
     background-color: rgba(249, 129, 58, 0.3);
@@ -1264,7 +1266,7 @@ header .custom-nav .btn-sign-up:hover {
     left: 28% !important;
   }
   .partner .partner-content .title h1 {
-    color: #F9813A;
+    color: #f9813a;
     font-weight: bold;
     font-size: 28px;
   }
@@ -1287,12 +1289,12 @@ header .custom-nav .btn-sign-up:hover {
     margin-top: 15px;
   }
   .section-contact .contact-item h5 {
-    color: #F9813A;
+    color: #f9813a;
     font-weight: bold;
     font-size: 24px;
   }
   .section-contact .contact-item ul li a {
-    color: #F9813A;
+    color: #f9813a;
     font-size: 18px;
   }
   .section-contact .contact-item .social img {
@@ -1307,7 +1309,7 @@ header .custom-nav .btn-sign-up:hover {
   .section-contact .bg-footer p {
     font-size: 16px !important;
     font-weight: bold;
-    color: #1A1C20 !important;
+    color: #1a1c20 !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
